@@ -5,7 +5,6 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Nicholas Leung",
   initials: "NL",
-  avatarUrl: "/me.png",
   url: "https://niscleungportfolio.vercel.app",
   location: "Hong Kong, HK",
   locationLink: "https://www.google.com/maps/place/Hong+Kong",
@@ -22,10 +21,6 @@ export const DATA = {
     { name: "Argument Construction & Deconstruction" },
     { name: "Literature Review" },
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
-  ],
   contact: {
     email: "nicholas.leung1015@gmail.com",
     tel: "+852 60879171",
@@ -35,8 +30,6 @@ export const DATA = {
         url: "https://www.linkedin.com/in/nicholas-l-29a4a4153/",
         icon: Icons.linkedin,
         navbar: true,
-      },
-      // Add others if relevant (GitHub, X, etc.)
     },
   },
   work: [

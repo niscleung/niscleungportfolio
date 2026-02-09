@@ -5,6 +5,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Nicholas Leung",
   initials: "NL",
+  avatarUrl: "/me.png",
   url: "https://niscleungportfolio.vercel.app",
   location: "Hong Kong, HK",
   locationLink: "https://www.google.com/maps/place/Hong+Kong",
